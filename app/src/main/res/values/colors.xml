@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="lemon_number_edittext_color_text">#303030</color>
+    <color name="lemon_number_edittext_color_textbg">#808080</color>
+    <color name="lemon_primary_green">#57a722</color>
+    <color name="lemon_primary_black">#2D2D2D</color>
+    <color name="lemon_primary_gray1">#666666</color>
+    <color name="lemon_primary_gray3">#c8c8c8</color>
+    <color name="lemon_primary_gray2">#9d9d9d</color>
+</resources>

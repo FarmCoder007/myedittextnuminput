@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lemon_number_edittext_textpadding">6dp</dimen>
+    <dimen name="number_edittext_textsize">15sp</dimen>
+    <dimen name="lemon_number_edittext_strokewidth">0.5dp</dimen>
+    <dimen name="lemon_number_text_width">30dp</dimen>
+</resources>

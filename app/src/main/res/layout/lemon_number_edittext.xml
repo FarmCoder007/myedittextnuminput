@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/lemon_number_edittext_rootlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/lemon_number_edittext_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lemon_number_edittext_tv0"
+            style="@style/lemon_number_edittext_text"
+            android:layout_width="@dimen/lemon_number_text_width"
+            android:layout_height="@dimen/lemon_number_text_width"/>
+
+        <TextView
+            android:id="@+id/lemon_number_edittext_tv1"
+            style="@style/lemon_number_edittext_text"
+            android:layout_width="@dimen/lemon_number_text_width"
+            android:layout_height="@dimen/lemon_number_text_width"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/lemon_number_edittext_tv2"
+            style="@style/lemon_number_edittext_text"
+            android:layout_width="@dimen/lemon_number_text_width"
+            android:layout_height="@dimen/lemon_number_text_width"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/lemon_number_edittext_tv3"
+            style="@style/lemon_number_edittext_text"
+            android:layout_width="@dimen/lemon_number_text_width"
+            android:layout_height="@dimen/lemon_number_text_width"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/lemon_number_edittext_tv4"
+            style="@style/lemon_number_edittext_text"
+            android:layout_width="@dimen/lemon_number_text_width"
+            android:layout_height="@dimen/lemon_number_text_width"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/lemon_number_edittext_tv5"
+            style="@style/lemon_number_edittext_text"
+            android:layout_width="@dimen/lemon_number_text_width"
+            android:layout_height="@dimen/lemon_number_text_width"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/lemon_number_edittext_tv6"
+            style="@style/lemon_number_edittext_text"
+            android:layout_width="@dimen/lemon_number_text_width"
+            android:layout_height="@dimen/lemon_number_text_width"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/lemon_number_edittext_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/lemon_number_edittext_layout"
+        android:layout_alignLeft="@id/lemon_number_edittext_layout"
+        android:layout_alignRight="@id/lemon_number_edittext_layout"
+        android:layout_alignTop="@id/lemon_number_edittext_layout"
+        android:background="@android:color/transparent"
+        android:inputType="number"
+        android:paddingLeft="2dp"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@drawable/cursor_purl"
+        android:maxLength="7"
+        android:textColor="@android:color/transparent"
+        android:textColorHint="@android:color/transparent"/>
+</RelativeLayout>
